@@ -1,0 +1,118 @@
+*, html, body, div, ul, li{
+    margin: 0 auto;
+    padding: 0 inherit;
+}
+
+body{
+    background-color: #1E1513;  
+}
+
+body a{
+    text-decoration: none;
+}
+
+body ul{
+    list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+h1{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 100px;
+    font-family: 'Shadows Into Light', cursive;
+    color:rgba(245, 243, 239, 0.9);
+    font-size: 50px;
+}
+
+#produit{
+    display: relative;
+    position: inherit;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 350px;
+}
+
+.prod{
+    display: block;
+}
+
+.prod ul li, .prod li{
+    margin-top: 15px
+}
+
+#produit p{
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.pizz{
+    display: block;
+    width: 450px;
+    background-color: rgba(245, 243, 239, 0.7);
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#propate h1{
+    margin-left: 500px;
+}
+
+.pat{
+    display: block;
+    width: 300px;
+    background-color: rgba(245, 243, 239, 0.7);
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.dess{
+    display: block;
+    width: 450px;
+    background-color: rgba(245, 243, 239, 0.7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+#proboiss h1{
+    margin-left: 500px;
+}
+
+.boiss{
+    display: block;
+    width: 400px;
+    margin-top: 50px;
+    background-color: rgba(245, 243, 239, 0.7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form{
+    display: block;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.pdt > li{
+    float: left;
+    width: 200px;
+    background-color: rgba(245, 243, 239, 0.7);
+    margin-left: 20px;
+    margin-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pdt ul li{
+    margin-top: 30px;
+    margin-left: -20px;
+}

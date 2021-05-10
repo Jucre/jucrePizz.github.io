@@ -1,0 +1,87 @@
+#propizz{
+    background-image: url(pizza_2_.jpg);
+    height: 1250px;
+}
+
+#propate{
+    background-image: url(pates.jpg);
+    height: 500px;
+}
+
+#prodess{
+    background-image: url(coupes_2_.jpg);
+    height: 540px;
+}
+
+#proboiss{
+    background-image: url(boisson2.jpg);
+    height: 560px;
+}
+
+
+#proform{
+    background-image: url(formule.jpg);
+    height: auto;
+    width: 1024px;
+}
+
+#propizz, #propate, #proform, #proboiss, #prodess {
+    float: inherit;
+    display: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1024px;
+    margin-top: 200px;
+    display: block;
+    overflow: hidden;
+}
+
+#ads{
+    position: relative;
+    display: table;
+    float: inherit;
+    margin-top: 5% ;
+    width: 65%;
+}
+
+.contact{
+    display: table-cell;
+    width: 330px;
+    background-color: #fce9c0;
+    vertical-align: middle;
+}
+
+#plan{
+    position: static;
+    vertical-align: middle;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.contact p{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #1E1513;
+}
+
+#adress{
+    font-size: 20px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    line-height: 2.5em;
+    background-color: #49362F;
+    margin-bottom: 0px;
+    margin-top: 3%;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    color: #fce9c0;
+}
