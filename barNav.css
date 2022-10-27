@@ -58,6 +58,7 @@
 #titlMenu{
     font-weight: 850;
     color: #1E1513;
+    vertical-align: sub;
 }
 
 /* mise en forme du menu deroulant */
