@@ -8,8 +8,7 @@
     top: 0px;
     background: #fce9c0; /* Old browsers */
     background: -moz-linear-gradient(top, #fce9c0 1%, #c5b364 85%, #101f28 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,#fce9c0 1%, #c5b364 85%, #101f28 100%);
-    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-linear-gradient(top,#fce9c0 1%, #c5b364 85%, #101f28 100%);/* Chrome10-25,Safari5.1-6 */
     background: -ms-linear-gradient(top,#fce9c0 1%, #c5b364 85%, #101f28 100%);/*Internet explorer*/
     background: -o-linear-gradient(top,#fce9c0 1%, #c5b364 85%, #101f28 100%);/*Opéra*/
     background: linear-gradient(top,#fce9c0 1%, #c5b364 85%, #101f28 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -37,6 +36,7 @@
     margin: 0;
 }
 
+/* taille du menu déroulant */
 .bar{
     position: absolute;
     display: block;
@@ -51,7 +51,7 @@
     margin-top: 10px;
     width: 150px;
     line-height: 100px;
-    font-size: 1.3em;
+    font-size: 1.1em;
     vertical-align: middle;
 }
 
